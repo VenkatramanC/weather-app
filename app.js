@@ -52,7 +52,7 @@ weatherApp.controller('forecastController' ,['$scope','$resource','$routeParams'
     $scope.weatherResult = $scope.weatherAPI.get({
         q: $scope.city, 
         cnt: $scope.days,
-        appid: 'bd82977b86bf27fb59a04b61b657fb6f'
+        appid: '55a85b861876d40cb43b0d7d40e20dce'
     });
     
     $scope.convertToFahrenheit = function(degk){
